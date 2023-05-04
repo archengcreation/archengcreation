@@ -19,3 +19,9 @@ body, head{
         height: 100px;
     }
 }
+
+@media (max-width: 400px){
+    .header{
+        font-size: 26px;
+    }
+}
