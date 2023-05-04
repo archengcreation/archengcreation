@@ -1,0 +1,21 @@
+body, head{
+    margin: 0;
+}
+
+.header{
+    font-size: 50px;
+}
+.tools{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 668px){
+    .header{
+        font-size: 30px;
+    }
+    .tools{
+        width: 100px;
+        height: 100px;
+    }
+}
